@@ -4,5 +4,4 @@ namespace: preprod
 resources:
   - ../../base
   - namespace.yaml
-  - hpa.yaml
   - service.yaml
