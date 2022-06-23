@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: podinfo
   labels: 
-    baselabel: commonlabel
 spec:
   minReadySeconds: 3
   revisionHistoryLimit: 5
